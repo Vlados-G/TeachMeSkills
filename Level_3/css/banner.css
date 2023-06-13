@@ -1,0 +1,265 @@
+.banner-block {
+    padding: 208px 0 185px;
+    font-family: 'Open Sans';
+    background: url(/img/banner__bgcolor.webp), url(/img/banner__background.webp) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.banner-block__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.banner-block__wrapper label::after{
+    width: 240px;
+}
+
+.banner-block__logo-desc {
+    max-width: 670px;
+}
+
+.banner-block__logo-img {
+    margin-top: 23px;
+}
+
+.banner-block__title-wrapper {
+    padding-bottom: 55.12px;
+    position: relative;
+}
+
+.banner-block__title-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 179.91px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.banner-block__title {
+    margin-top: 72.88px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    word-break: break-word;
+}
+
+.banner-block__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.banner-block__text {
+    max-width: 40.3%;
+    color: white;
+    word-break: break-word;
+}
+
+.banner-block__btn {
+    padding: 14.5px 10px;
+    border: 2px solid #FFFFFF;
+    max-width: 40.3%;
+    background-color: transparent;
+    word-break: break-word;
+}
+
+.banner-block__btn:hover {
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.banner-block__btn:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: white;
+}
+
+.banner-block__form {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 28.5px 0 0;
+    max-width: 470px;
+    width: 100%;
+}
+
+.banner-block__form-wrapper {
+    padding: 0 50px;
+}
+
+legend {
+    text-align: center;
+    color: #333333;
+}
+
+span {
+    color: #EC7979;
+}
+
+.banner-block__form-name {
+    margin-top: 73.5px;
+}
+
+.banner-block__form-email {
+    margin-top: 36px;
+}
+
+.banner-block__form-password {
+    margin-top: 36px;
+}
+
+.banner-block__form-btn {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 78px;
+    padding: 20px 20px;
+    width: 100%;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.banner-block__form-btn:hover {
+    background-color: #AB4949;
+}
+
+.banner-block__form-btn:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+@media (max-width: 1510px) {
+    .banner-block {
+        padding: 137px 0 106px;
+    }
+    
+    .banner-block__wrapper {
+        justify-content: space-between;
+    }
+    
+    .banner-block__logo-desc {
+        max-width: 454.36px;
+    }
+
+    .banner-block__logo-img {
+        width: 115.28px;
+        height: 41.17px;
+    }
+    
+    .banner-block__logo-img {
+        margin-top: 17px;
+    }
+    
+    .banner-block__title-wrapper {
+        padding-bottom: 41.49px;
+    }
+    
+    .banner-block__title-wrapper::after {
+        width: 115.28px;
+    }
+    
+    .banner-block__title {
+        margin-top: 54.08px;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .banner-block__text-wrapper {
+        gap: 31px;
+    }
+ 
+    .banner-block__btn {
+        padding: 10.5px;
+    }
+       
+    .banner-block__form {
+        padding: 32.5px 0 0;
+        max-width: 398px;
+    }
+
+    .banner-block__form-name {
+        margin-top: 77.5px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .banner-block {
+        padding: 84.12px 0 50px;
+        background: url(/img/banner__bgcolor.webp), url(/img/banner__background.webp) 100% 100% no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner-block__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 56px;
+    }
+    
+    .banner-block__logo-desc {
+        max-width: 100%;
+    }
+    
+    .banner-block__logo-img {
+        display: none;
+    }
+    
+    .banner-block__title-wrapper {
+        padding-bottom: 43.88px;
+    }
+    
+    .banner-block__title-wrapper::after {
+        left: 26.73%;
+        width: 134px;
+    }
+    
+    .banner-block__title {
+        margin-top: 0;
+        text-align: center;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .banner-block__text-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+    
+    .banner-block__text {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .banner-block__btn {
+        padding: 10.5px 10px;
+        max-width: 100%;
+    }
+    
+    .banner-block__form {
+        padding: 35.5px 0 0;
+        max-width: 100%;
+    }
+    
+    .banner-block__form-wrapper {
+        padding: 0 28px 0 20px;
+    }
+    
+    legend {
+        font-size: 14px;
+        line-height: 19px;
+    }
+       
+    .banner-block__form-name {
+        margin-top: 35.5px;
+    }
+
+    .banner-block__form-btn {
+        margin-top: 54px;
+    }
+}

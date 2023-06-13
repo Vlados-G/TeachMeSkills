@@ -1,0 +1,163 @@
+.awesome-block {
+    margin-top: 104px;
+    font-family: 'Raleway';
+}
+
+.awesome-block__title-wrapper{
+    padding-bottom: 54px;
+    position: relative;
+}
+
+.awesome-block__title-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 42.73%;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+}
+
+.awesome-block__list {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome-list__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 31.62%;
+    word-break: break-word;
+}
+
+.awesome-list__item-title {
+    text-align: center;
+}
+
+.awesome-list__title-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.awesome-list__title-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 37.56%;
+    width: 92px;
+    height: 92px;
+    background-image: url(../img/icons/Idea__icon.svg);
+}
+
+.keyboard-icon::before {
+    background-image: url(../img/icons/Keyboard__icon.svg);
+}
+
+.lightning-icon::before {
+    background-image: url(../img/icons/Lightning__icon.svg);
+}
+
+.awesome-list__item-desc {
+    margin-top: 41.5px;
+    width: 98%;
+    text-align: center;
+}
+
+@media (max-width: 1510px) {
+    .awesome-block {
+        margin-top: 96px;
+    }
+    
+    .awesome-block__title-wrapper{
+        padding-bottom: 46px;
+    }
+    
+    .awesome-block__title-wrapper::after {
+        left: 42.84%;
+        width: 142px;
+    }
+    
+    .awesome-block__list {
+        margin-top: 65.72px;
+        gap: 20px;
+    }
+    
+    .awesome-list__item {
+        max-width: 31.95%;
+    }
+       
+    .awesome-list__title-wrapper {
+        padding-top: 141.77px;
+    }
+    
+    .awesome-list__title-wrapper::before {
+        left: 37.3%;
+        width: 80.55px;
+        height: 80.55px;
+        background-image: url(../img/icons/Idea__icon2.svg);
+    }
+    
+    .keyboard-icon::before {
+        background-image: url(../img/icons/Keyboard__icon2.svg);
+    }
+    
+    .lightning-icon::before {
+        background-image: url(../img/icons/Lightning__icon2.svg);
+    }
+    
+    .awesome-list__item-desc {
+        margin-top: 37.5px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .awesome-block {
+        margin-top: 49.5px;
+    }
+    
+    .awesome-block__title-wrapper{
+        padding-bottom: 49.5px;
+    }
+    
+    .awesome-block__title-wrapper::after {
+        left: 26.73%;
+        width: 134px;
+    }
+    
+    .awesome-block__title {
+        font-size: 18px;
+        line-height: 21px;  
+    }
+
+    .awesome-block__text {
+        margin-top: 25px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .awesome-block__list {
+        margin-top: 83.72px;
+        flex-direction: column;
+        gap: 44px;
+    }
+    
+    .awesome-list__item {
+        max-width: 100%;
+    }
+  
+    .awesome-list__title-wrapper {
+        padding-top: 141.77px;
+    }
+    
+    .awesome-list__title-wrapper::before {
+        left: 36%;
+        width: 80.55px;
+        height: 80.55px;
+    }  
+    .awesome-list__item-desc {
+        margin-top: 37.5px;
+    }
+    
+}

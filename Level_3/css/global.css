@@ -1,0 +1,142 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: break-word;
+}
+
+.subtitle {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    word-break: break-word;
+}
+
+.text {
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    word-break: break-word;
+}
+
+.desc {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    word-break: break-word;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    word-break: break-word;
+}
+
+input {
+    padding-bottom: 16px;
+    position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    width: 100%;
+    background: white;
+}
+
+label {
+    position: relative;
+}
+
+label::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 1px;
+    background-color: #BDBDBD;
+}
+
+@media (max-width: 1510px) and (min-width: 1024px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+        line-height: 25px;
+    }    
+
+    .text {
+        margin-top: 32px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .desc {
+        font-size: 14px;
+        line-height: 16px;
+    }
+       
+    label::after {
+        width: 298px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .container {
+        max-width: 288px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+        line-height: 25px;
+    } 
+
+    .text {
+        margin-top: 24px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+   
+    .desc {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    label::after {
+        width: 288px;
+    }
+}
